@@ -106,6 +106,7 @@
   <ItemGroup>
     <Content Include="DetailsViewDemo.aspx" />
     <Content Include="DropDownListDemo.aspx" />
+    <Content Include="FormVIew.aspx" />
     <Content Include="GridView.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -123,6 +124,13 @@
     </Compile>
     <Compile Include="DropDownListDemo.aspx.designer.cs">
       <DependentUpon>DropDownListDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormVIew.aspx.cs">
+      <DependentUpon>FormVIew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormVIew.aspx.designer.cs">
+      <DependentUpon>FormVIew.aspx</DependentUpon>
     </Compile>
     <Compile Include="GridView.aspx.cs">
       <DependentUpon>GridView.aspx</DependentUpon>
