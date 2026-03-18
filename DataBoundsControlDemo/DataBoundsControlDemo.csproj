@@ -81,6 +81,7 @@
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -105,6 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Books.xml" />
+    <Content Include="ChartControl.aspx" />
     <Content Include="DetailsViewDemo.aspx" />
     <Content Include="DropDownListDemo.aspx" />
     <Content Include="FormVIew.aspx" />
@@ -112,6 +114,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChartControl.aspx.cs">
+      <DependentUpon>ChartControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChartControl.aspx.designer.cs">
+      <DependentUpon>ChartControl.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DetailsViewDemo.aspx.cs">
       <DependentUpon>DetailsViewDemo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
