@@ -17,12 +17,25 @@ namespace DataBoundsControlDemo
         {
             if (!IsPostBack)
             {
-                OracleConnection con = new OracleConnection(
-                    ConfigurationManager.ConnectionStrings["OracleDBConnectionString"].ConnectionString);
+                BindGrid();
+            }
+        }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+      
+        private void BindGrid()
+        {
+            using (OracleConnection con = new OracleConnection(
+                ConfigurationManager.ConnectionStrings["OracleDBConnectionString"].ConnectionString))
+            {
                 OracleDataAdapter da = new OracleDataAdapter("SELECT * FROM Students", con);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
                 GridView1.DataSource = dt;
+              //  GridView1.DataKeyNames = new string[] { "RollNo" }; // important for edit/delete
                 GridView1.DataBind();
             }
         }

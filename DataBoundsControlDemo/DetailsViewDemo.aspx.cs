@@ -28,19 +28,17 @@ namespace DataBoundsControlDemo
                 OracleDataAdapter da = new OracleDataAdapter("SELECT * FROM Students", con);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
+                DetailsView1.DataSource = dt;
+                DetailsView1.DataBind();
 
-                if (dt.Rows.Count > 0)
-                {
-                    DetailsView1.DataSource = dt;
-                    DetailsView1.DataBind();
-                }
-                else
-                {
-                    DetailsView1.DataSource = null;
-                    DetailsView1.DataBind();
-                    Label1.Text = "No records found in Students table.";
-                }
             }
+
+        }
+
+        protected void DetailsView1_PageIndexChanging(object sender, DetailsViewPageEventArgs e)
+        {
+            DetailsView1.PageIndex = e.NewPageIndex;
+            BindDetails(); // rebind your data source
         }
     }
 }

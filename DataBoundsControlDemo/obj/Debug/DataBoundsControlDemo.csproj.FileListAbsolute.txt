@@ -75,8 +75,8 @@ C:\Users\shahazads\source\repos\DataBoundsControlDemo\DataBoundsControlDemo\bin\
 C:\Users\shahazads\source\repos\DataBoundsControlDemo\DataBoundsControlDemo\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\shahazads\source\repos\DataBoundsControlDemo\DataBoundsControlDemo\bin\System.ValueTuple.xml
 C:\Users\shahazads\source\repos\DataBoundsControlDemo\DataBoundsControlDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\shahazads\source\repos\DataBoundsControlDemo\DataBoundsControlDemo\obj\Debug\DataBoundsControlDemo.csproj.AssemblyReference.cache
 C:\Users\shahazads\source\repos\DataBoundsControlDemo\DataBoundsControlDemo\obj\Debug\DataBoundsControlDemo.csproj.CoreCompileInputs.cache
 C:\Users\shahazads\source\repos\DataBoundsControlDemo\DataBoundsControlDemo\obj\Debug\DataBoundsControlDemo.csproj.CopyComplete
 C:\Users\shahazads\source\repos\DataBoundsControlDemo\DataBoundsControlDemo\obj\Debug\DataBoundsControlDemo.dll
 C:\Users\shahazads\source\repos\DataBoundsControlDemo\DataBoundsControlDemo\obj\Debug\DataBoundsControlDemo.pdb
+C:\Users\shahazads\source\repos\DataBoundsControlDemo\DataBoundsControlDemo\obj\Debug\DataBoundsControlDemo.csproj.AssemblyReference.cache
