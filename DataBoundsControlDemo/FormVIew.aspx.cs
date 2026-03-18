@@ -46,5 +46,11 @@ namespace DataBoundsControlDemo
             FormView1.PageIndex = e.NewPageIndex;
             BindDetails();
         }
+
+        protected void FormView2_PageIndexChanging(object sender, FormViewPageEventArgs e)
+        {
+            FormView1.PageIndex = e.NewPageIndex;
+            FormView1.DataBind();  // rebind to XmlDataSource
+        }
     }
 }

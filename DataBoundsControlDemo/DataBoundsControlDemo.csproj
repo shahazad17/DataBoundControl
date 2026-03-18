@@ -104,6 +104,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Books.xml" />
     <Content Include="DetailsViewDemo.aspx" />
     <Content Include="DropDownListDemo.aspx" />
     <Content Include="FormVIew.aspx" />

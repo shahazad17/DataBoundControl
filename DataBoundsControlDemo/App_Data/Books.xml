@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Books>
+	<Book>
+		<BookID>1</BookID>
+		<Title>ASP.NET Basics</Title>
+		<Author>John Smith</Author>
+	</Book>
+	<Book>
+		<BookID>2</BookID>
+		<Title>Oracle for Beginners</Title>
+		<Author>Mary Johnson</Author>
+	</Book>
+	<Book>
+		<BookID>3</BookID>
+		<Title>Machine Learning Intro</Title>
+		<Author>David Lee</Author>
+	</Book>
+</Books>
