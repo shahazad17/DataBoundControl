@@ -34,12 +34,13 @@ namespace DataBoundsControlDemo
             }
 
         }
-
+        /*
         protected void DetailsView1_PageIndexChanging(object sender, DetailsViewPageEventArgs e)
         {
             FormView1.PageIndex = e.NewPageIndex;
             BindDetails(); // rebind your data source
         }
+        */
 
         protected void FormView1_PageIndexChanging(object sender, FormViewPageEventArgs e)
         {
