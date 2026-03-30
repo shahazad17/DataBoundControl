@@ -11,8 +11,7 @@
         <div>
             <asp:Chart ID="Chart1" runat="server" Width="600px" Height="400px">
                 <Series>
-                    <asp:Series Name="BooksSeries" ChartType="Column"
-                        XValueMember="Author" YValueMembers="BookID">
+                    <asp:Series Name="BooksSeries" ChartType="Column">
                     </asp:Series>
                 </Series>
                 <ChartAreas>
