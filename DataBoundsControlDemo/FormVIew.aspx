@@ -5,10 +5,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style type="text/css">
+        #form1 {
+            height: 202px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
+
+        </div>
 
             <asp:FormView ID="FormView1" runat="server"  DefaultMode="ReadOnly" AllowPaging="true" OnPageIndexChanging="FormView1_PageIndexChanging">
                 <ItemTemplate>
@@ -29,7 +36,6 @@
     </ItemTemplate>
             </asp:FormView>
 
-        </div>
     </form>
 </body>
 </html>

@@ -45,7 +45,7 @@ namespace DataBoundsControlDemo
         protected void FormView1_PageIndexChanging(object sender, FormViewPageEventArgs e)
         {
             FormView1.PageIndex = e.NewPageIndex;
-            BindDetails();
+           BindDetails();
         }
     }
 }
